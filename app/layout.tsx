@@ -7,6 +7,9 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'DogeshFilms - Your Personal Film Collection',
   description: 'Watch and manage your custom film collection',
+  icons: {
+    icon: '/favicon.svg',
+  },
 }
 
 export default function RootLayout({
